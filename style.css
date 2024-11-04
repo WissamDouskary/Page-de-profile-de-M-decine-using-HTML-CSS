@@ -89,11 +89,27 @@ body{
     font-weight: 400;
      font-style: normal;
 }
-
+.lastBtn{
+    margin: 40px 0 20px 0;
+    padding: 15px 100px;
+    border: none;
+    border-radius: 10px;
+    background-color: #6c5cd1;
+    color: white;
+    font-family: "Inter", serif;
+    cursor: pointer;
+}
+.lastone{
+    display: flex;
+    justify-content: center;
+}
 
 @media (max-width : 375px){
     .achievements-section{
         gap: 15px;
+    }
+    .lastBtn{
+        padding: 15px 80px;
     }
 }
 @media (max-width : 340px){
