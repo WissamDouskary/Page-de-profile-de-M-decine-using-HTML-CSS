@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap');
+
+
+
+
+
+
+body{
+    margin: 0;
+}
+.headerO{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headerO:first-child{
+    font-size: large;
+    font-weight: 900;
+    font-family: "Ubuntu", sans-serif;
+}
+.header-infos p{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 4;
+}
+.requist-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Ubuntu", sans-serif;
+}
+.requist-section button{
+    background-color: rgb(98, 98, 209);
+    border:none;
+    height: 4em;
+    padding: 0 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+}
+.Rate-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.Rate-section p {
+    font-family: "Ubuntu", sans-serif;
+}
+.Rate-section h3{
+    font-family: "Ubuntu", sans-serif;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+    gap: 2em;
+}
+.social-media i {
+    background-color: rgb(230, 227, 227);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.achievements-section{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    justify-content: center;
+    margin-top: 60px;
+    gap: 35px;
+}
+
+
+
+.card{
+    background-color: rgb(221, 221, 221);
+    padding: 40px;
+    width: 80px;
+    text-align: center;
+    border-radius: 40px;
+    
+}
+.card p{
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+     font-style: normal;
+}
+
+
+@media (max-width : 375px){
+    .achievements-section{
+        gap: 15px;
+    }
+}
+@media (max-width : 340px){
+    .achievements-section{
+        gap: 5px;
+    }
+}
